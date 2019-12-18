@@ -13,31 +13,18 @@ namespace test
     {
         static void Main(string[] args)
         {
-            string data = @"NAME, CATEGORY, PRICE
-Xiaomi Redmi 5A, Smartphone, 1199000
-Macbook Air, Laptop, 13775000
-Samsung Galaxy J7, Smartphone, 3549000
-DELL XPS 13, Laptop, 26799000
-Xiaomi Mi 6, Smartphone, 5399000
-LG V30 Plus, Smartphone, 10499000";
+            JsonData.findAri();
+            //string text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+            //Console.WriteLine(Str.trim(text));
 
-            List<string> hasil = data.Split("\n").ToList();
-            List<Dictionary<string, string>> hasil_akhir = new List<Dictionary<string, string>>();
+            /*Count Words*/
+            //advanced.countWords();
 
-            foreach (var item in hasil)
-            {
-                Console.WriteLine(item);
-            }
-            for (int i = 0; i < hasil.Count - 1; i++)
-            {
-                string[] temp = hasil[i + 1].Split(", ");
-                Dictionary<string, string> tampung = new Dictionary<string, string>();
-                tampung.Add("name", temp[0]);
-                tampung.Add("price", $"Rp {temp[2]}");
-                tampung.Add("category", temp[1]);
-                hasil_akhir.Add(tampung);
-            }
-            Console.WriteLine(hasil_akhir);
+            /*Censoring Word*/
+            //Console.WriteLine(advanced.censorWord());
+
+            /*CSV Object*/
+            //advanced.csvObject();
 
             /*List Gabung*/
             //advanced.listGabung();

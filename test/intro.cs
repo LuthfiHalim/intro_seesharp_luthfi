@@ -6,7 +6,7 @@ using System.Text;
 
 namespace test
 {
-    class intro
+    class Intro
     {
         public static int luthfi = 100;
         public static void JumlahKarakter()
