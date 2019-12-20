@@ -54,7 +54,7 @@ namespace test
         }
         public static string random(int input = 16)
         {
-            string daftar_char = "abcdefghijklmnopqrstuvwxyz123456789";
+            string daftar_char = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz123456789";
             Random hasil = new Random();
             List<char> rand = new List<char>();
             for(int i = 0; i < input; i++)

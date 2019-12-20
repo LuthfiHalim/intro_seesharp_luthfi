@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,7 +39,7 @@ namespace test
             string hasil = String.Join(" ", gabung.ToArray());
             Console.WriteLine(hasil);
         }
-        public static void csvObject()
+        public static IEnumerable csvObject()
         {
             string data = @"NAME, CATEGORY, PRICE
 Xiaomi Redmi 5A, Smartphone, 1199000
@@ -77,6 +78,7 @@ LG V30 Plus, Smartphone, 10499000";
             {
                 Console.WriteLine($"Product: {item.name} adalah {item.category} dengan harga: {item.price.ToString("C")}");
             }
+            return query;
         }
         public static string censorWord()
         {

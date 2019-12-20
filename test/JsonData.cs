@@ -78,20 +78,22 @@ namespace test
                 Console.WriteLine(item.created_at);
             }           
         }
-        public static void findFebruary()
+        public static List<DataTransaksi> findFebruary()
         {
             List<DataTransaksi> data = JsonConvert.DeserializeObject<List<DataTransaksi>>(input);
-
+            List<DataTransaksi> february = new List<DataTransaksi>();
             Console.WriteLine($"Order ID pesanan bulan feruary: ");
             foreach (var item in data)
             {
                 if (item.created_at.Month == 2)
                 {
+                    february.Add(item);
                     Console.WriteLine(item.order_id);
                 }
             }
+            return february;
         }
-        public static void findAri()
+        public static long findAri()
         {
             List<DataTransaksi> data = JsonConvert.DeserializeObject<List<DataTransaksi>>(input);
 
@@ -110,6 +112,49 @@ namespace test
                 }
             }
             Console.WriteLine($"Dengan total pembelian : {total}");
+            return total;
+        }
+        public static long findRirin()
+        {
+            List<DataTransaksi> data = JsonConvert.DeserializeObject<List<DataTransaksi>>(input);
+
+            Console.WriteLine($"Order ID pesanan Ririn: ");
+            long total = 0;
+            foreach (var item in data)
+            {
+                if (item.customer["name"] == "Ririn")
+                {
+                    foreach (var list in item.items)
+                    {
+                        //Console.WriteLine(list["price"]);
+                        total = total + list["price"] * list["qty"];
+                    }
+                    Console.WriteLine(total);
+                }
+            }
+            Console.WriteLine($"Dengan total pembelian : {total}");
+            return total;
+        }
+        public static long findAnnis()
+        {
+            List<DataTransaksi> data = JsonConvert.DeserializeObject<List<DataTransaksi>>(input);
+
+            Console.WriteLine($"Order ID pesanan Annis: ");
+            long total = 0;
+            foreach (var item in data)
+            {
+                if (item.customer["name"] == "Annis")
+                {
+                    foreach (var list in item.items)
+                    {
+                        //Console.WriteLine(list["price"]);
+                        total = total + list["price"] * list["qty"];
+                    }
+                    Console.WriteLine(total);
+                }
+            }
+            Console.WriteLine($"Dengan total pembelian : {total}");
+            return total;
         }
         public static void grandTotalBelow300k()
         {
@@ -120,12 +165,13 @@ namespace test
             long tot = 0;
             foreach (var item in data[0].items)
             {
-                tot = tot + item["price"];
+                tot = tot + item["price"] * item["qty"];
             }
             Pelanggan pertama = new Pelanggan();
             pertama.name = data[0].customer["name"];
             pertama.total = tot;
             users.Add(pertama);
+
             for (int i = 1; i< data.Count;i++)
             {
                 int penanda = 0;
@@ -135,28 +181,28 @@ namespace test
                     {
                         penanda++;
                         //Console.WriteLine("pelanggan baru");
+                        if (penanda == users.Count)// pelanggan baru
+                        {
+                            Pelanggan baru = new Pelanggan();
+                            long jumlah = 0;
+                            foreach (var item in data[i].items)
+                            {
+                                jumlah = jumlah + item["price"] * item["qty"];
+                            }
+                            baru.name = data[i].customer["name"];
+                            baru.total = jumlah;
+                            users.Add(baru);
+                        }
                     }
                     else
                     {
                         long jumlah = 0;
                         foreach (var item in data[i].items)
                         {
-                            jumlah = jumlah + item["price"];
+                            jumlah = jumlah + item["price"] * item["qty"];
                         }
                         users[j].total = users[j].total + jumlah;
                         //Console.WriteLine("pelanggan lama");
-                    }
-                    if(penanda == users.Count)// pelanggan baru
-                    {
-                        Pelanggan baru = new Pelanggan();
-                        long jumlah = 0;
-                        foreach (var item in data[i].items)
-                        {
-                            jumlah = jumlah + item["price"];
-                        }
-                        baru.name = data[i].customer["name"];
-                        baru.total = jumlah;
-                        users.Add(baru);
                     }
                 }
             }
