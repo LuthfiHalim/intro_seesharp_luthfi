@@ -1,0 +1,8 @@
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Method\bin\Debug\netstandard2.0\Fungsi.deps.json
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Method\bin\Debug\netstandard2.0\Fungsi.dll
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Method\bin\Debug\netstandard2.0\Fungsi.pdb
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Method\obj\Debug\netstandard2.0\Fungsi.csprojAssemblyReference.cache
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Method\obj\Debug\netstandard2.0\Fungsi.AssemblyInfoInputs.cache
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Method\obj\Debug\netstandard2.0\Fungsi.AssemblyInfo.cs
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Method\obj\Debug\netstandard2.0\Fungsi.dll
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Method\obj\Debug\netstandard2.0\Fungsi.pdb

@@ -1,0 +1,8 @@
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Arithmetic\bin\Debug\netcoreapp3.1\Arithmetic.deps.json
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Arithmetic\bin\Debug\netcoreapp3.1\Arithmetic.dll
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Arithmetic\bin\Debug\netcoreapp3.1\Arithmetic.pdb
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Arithmetic\obj\Debug\netcoreapp3.1\Arithmetic.csprojAssemblyReference.cache
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Arithmetic\obj\Debug\netcoreapp3.1\Arithmetic.AssemblyInfoInputs.cache
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Arithmetic\obj\Debug\netcoreapp3.1\Arithmetic.AssemblyInfo.cs
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Arithmetic\obj\Debug\netcoreapp3.1\Arithmetic.dll
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Arithmetic\obj\Debug\netcoreapp3.1\Arithmetic.pdb
