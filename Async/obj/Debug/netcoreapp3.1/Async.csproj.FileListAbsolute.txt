@@ -1,0 +1,13 @@
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\bin\Debug\netcoreapp3.1\Async.exe
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\bin\Debug\netcoreapp3.1\Async.deps.json
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\bin\Debug\netcoreapp3.1\Async.runtimeconfig.json
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\bin\Debug\netcoreapp3.1\Async.runtimeconfig.dev.json
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\bin\Debug\netcoreapp3.1\Async.dll
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\bin\Debug\netcoreapp3.1\Async.pdb
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\obj\Debug\netcoreapp3.1\Async.csprojAssemblyReference.cache
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\obj\Debug\netcoreapp3.1\Async.AssemblyInfoInputs.cache
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\obj\Debug\netcoreapp3.1\Async.AssemblyInfo.cs
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\obj\Debug\netcoreapp3.1\Async.csproj.CopyComplete
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\obj\Debug\netcoreapp3.1\Async.dll
+D:\Users\bsi80090\Documents\DotNET\intro\intro_seesharp_luthfi\Async\obj\Debug\netcoreapp3.1\Async.pdb

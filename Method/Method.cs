@@ -112,6 +112,7 @@ namespace Fungsi
         }
         public static List<int> oddinrange(int input)
         {
+            //return Enumerable.Range(0, input).Where(e => e%2==0).ToList();
             List<int> temp = new List<int>();
             for (int i = 0; i < input; i++)
             {
